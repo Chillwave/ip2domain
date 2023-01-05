@@ -14,15 +14,15 @@ Example
 
 Suppose the file input.txt contains the following list of IP addresses:
 
-8.8.8.8
-8.8.4.4
-1.1.1.1
+  8.8.8.8
+  8.8.4.4
+  1.1.1.1
 
 Running the script with the default input file will produce the following output:
 
-google-public-dns-a.google.com
-google-public-dns-b.google.com
-one.one.one.one
+  google-public-dns-a.google.com
+  google-public-dns-b.google.com
+  one.one.one.one
 
 The output will be written to the file ip_convertedTo_domain.txt.
 
