@@ -34,9 +34,9 @@ with open(output_filename, 'w') as f:
         try:
             domain = socket.gethostbyaddr(ip)[0]
         except socket.herror:
-            domain = 'Could not resolve {}'.format(ip)
+            domain = ip
 
-        # Write the domain name (or error message) to the output file
+        # Write the domain name (or IP address) to the output file
         f.write(domain + '\n')
-        # Print the resolution (or error message) to the console
+        # Print the resolution (or IP address) to the console
         print(domain)
