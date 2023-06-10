@@ -1,4 +1,4 @@
-# Magellan IP 2 Domain Name Converter
+# P 2 Domain Name Converter
 
 This script converts a list of IP addresses to domain names.
 
@@ -6,7 +6,7 @@ This script converts a list of IP addresses to domain names.
 
 To use the script, run the following command:
 
-python converter00.py [input_file]
+python ip2d.py [input_file]
 
 `input_file` is the name of the file containing the list of IP addresses to convert. If no input file is specified, the script will use the default file `input.txt`.
 
