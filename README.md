@@ -1,4 +1,4 @@
-# P 2 Domain Name Converter
+# IP 2 Domain Name Converter
 
 This script converts a list of IP addresses to domain names.
 
